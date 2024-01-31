@@ -8,7 +8,7 @@ type HeaderProps = {
 
 export default function Header({ title }: HeaderProps) {
     return (
-        <div className="navbar shadow bg-transparent bg-black bg-opacity-10 fixed top-0 z-10">
+        <div className="navbar shadow bg-transparent bg-black bg-opacity-40 lg:fixed top-0 z-10 sticky">
             <HeaderText title={title}></HeaderText>
             <HeaderNavbar></HeaderNavbar>
         </div>
