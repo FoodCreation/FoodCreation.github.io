@@ -1,5 +1,6 @@
 import React from "react";
 import TeamCardDesktop from "./TeamCardDesktop";
+
 export default function TeamsDesktop() {
     return (
         <div className="hidden lg:flex lg:items-center lg:justify-center lg:mx-[61px]">

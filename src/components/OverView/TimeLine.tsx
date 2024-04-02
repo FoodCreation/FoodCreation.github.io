@@ -37,7 +37,7 @@ export default function TimeLine() {
             </div>
 
             {/* 画面サイズが大きいとき用 */}
-            <div className="hidden md:flex md:justify-center md:card md:bg-base-300 md:rounded-box md:place-items-center md:itmes-center md:pb-10 md:w-11/12 md:mx-auto">
+            <div className="hidden lg:flex lg:justify-center lg:card lg:bg-base-300 lg:rounded-box lg:place-items-center lg:itmes-center lg:pb-10 lg:w-11/12 lg:mx-auto">
                 <ul className="timeline">
                     <li>
                         <hr className="bg-blue-500" />

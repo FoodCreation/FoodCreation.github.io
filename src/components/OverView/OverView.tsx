@@ -2,6 +2,7 @@ import React from "react";
 import OverViewText from "./OverViewText";
 import TimeLine from "./TimeLine";
 import OverViewLabel from "./OverViewLabel";
+import TimeLineLabel from "./TimeLineLabel";
 
 export default function OverView() {
     return (
@@ -10,7 +11,9 @@ export default function OverView() {
                 <OverViewLabel></OverViewLabel>
                 <OverViewText></OverViewText>
                 <div className="divider mx-6"></div>
+                <TimeLineLabel></TimeLineLabel>
                 <TimeLine></TimeLine>
+                <div className="divider mx-6"></div>
             </div>
         </div>
     )
