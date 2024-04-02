@@ -1,6 +1,6 @@
 import React from "react";
+import Head from "next/head";
 
-{/*ここにその他インポート文を記述 */ }
 import Header from "@/components/Header/Header";
 import Slider from "@/components/Slider/slider";
 import OverView from "@/components/OverView/OverView";
@@ -9,14 +9,17 @@ import TeamsDesktop from "@/components/Teams/TeamsDesktop";
 import TeamsMobile from "@/components/Teams/TeamsMobile";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
-import { kiwiMaruRegular, shinRetroMaruGothicRegular, zenMaruGothicRegular } from "@/components/font/styles.font";
-{/*ここまで*/ }
+import { kiwiMaruRegular } from "@/components/font/styles.font"; 
 
-export default function index() {
+export default function Index() {
     return (
         <div className={kiwiMaruRegular.className}>
-            <Header title="foocre" imageUrl="img/desktop/foocre8_icon.png" altText="アイコン画像"></ Header>
-            <div className="">
+            {/* Use Head component to set meta tags */}
+            <Head>
+                <meta name="color-scheme" content="light" />
+            </Head>
+            <Header title="foocre" imageUrl="img/desktop/foocre8_icon.png" altText="アイコン画像" />
+            <div className="bg-slate-100 text-slate-900">
                 <Slider />
                 <OverView />
                 <div className="">
