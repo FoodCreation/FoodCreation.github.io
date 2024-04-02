@@ -1,9 +1,16 @@
 import React from "react";
 
-export default function TimeLineLabel(){
-    return(
-        <div className="text-4xl ml-9 mb-5 font-bold">
-            プロジェクトの歩み
+export default function TimeLineLabel() {
+    return (
+        <div>
+            {/*デスクトップ画面用*/}
+            <div className="hidden lg:block lg:ml-9 lg:mb-6">
+                <p className="text-4xl font-bold">プロジェクトの歩み</p>
+            </div>
+            {/*モバイル画面用*/}
+            <div className="lg:hidden mb-6">
+                <p className="flex justify-center text-4xl font-bold">プロジェクトの歩み</p>
+            </div>
         </div>
     )
 }
