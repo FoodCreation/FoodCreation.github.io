@@ -4,7 +4,7 @@ export default function TimeLine() {
     return (
         <div>
             {/* 画面サイズが小さいとき用 */}
-            <div className="lg:hidden card bg-base-300 w-1/2 mx-auto">
+            <div className="lg:hidden card bg-slate-200 text-slate-900 w-1/2 mx-auto">
                 <div className="bg-opacity-30 flex justify-between pl-3 mx-auto">
                     <ol className="relative border-s-8 border-blue-500">
                         <li className="mb-10 ms-4">
@@ -37,7 +37,7 @@ export default function TimeLine() {
             </div>
 
             {/* 画面サイズが大きいとき用 */}
-            <div className="hidden lg:flex lg:justify-center lg:card lg:bg-base-300 lg:rounded-box lg:place-items-center lg:itmes-center lg:pb-10 lg:w-11/12 lg:mx-auto">
+            <div className="hidden lg:flex lg:justify-center lg:card lg:bg-slate-200 lg:text-slate-900 lg:rounded-box lg:place-items-center lg:itmes-center lg:pb-10 lg:w-11/12 lg:mx-auto">
                 <ul className="timeline">
                     <li>
                         <hr className="bg-blue-500" />
