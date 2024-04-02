@@ -7,9 +7,9 @@ type HeaderProps = {
     title: string
 }
 
-export type IconProps = {
-    imageUrl: string
-    altText: string
+export interface IconProps  {
+    imageUrl: string;
+    altText: string;
 }
 
 export default function Header({ title, imageUrl, altText }: HeaderProps & IconProps) {
