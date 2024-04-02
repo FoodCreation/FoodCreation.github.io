@@ -6,7 +6,7 @@ import { IconProps } from "../Header/Header";
 
 export default function Contact() {
     return (
-        <div className="flex flex-col w-full border-opacity-50 my-3 pb-3">
+        <div className="flex flex-col w-full border-opacity-50 mt-3 mb-9 pb-3">
             <ContactLabel />
             {/*デスクトップ画面用*/}
             <div className="hidden lg:flex lg:justify-center lg:items-center">
