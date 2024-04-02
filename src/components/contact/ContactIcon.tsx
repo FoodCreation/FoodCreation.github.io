@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { IconProps } from "../Header/Header";
 import Link from "next/link";
 
@@ -11,12 +10,7 @@ export default function ContactIcon({ imageUrl, altText, iconLink }: LinkIconPro
     return (
         <div className="mx-4">
             <Link href={iconLink}>
-                <Image
-                    src={imageUrl}
-                    width={60}
-                    height={60}
-                    alt={altText}
-                />
+                <img src={imageUrl} width={60} height={60} alt={altText}></img>
             </Link>
         </div>
     )
