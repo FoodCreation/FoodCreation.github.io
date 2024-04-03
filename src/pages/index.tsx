@@ -29,6 +29,7 @@ export default function Index() {
                     <TeamsMobile></TeamsMobile>
                     <div className="divider mx-6"></div>
                 </div>
+                <div id="Contact" className=""></div>
                 <Contact></Contact>
             </div>
             <Footer></Footer>
