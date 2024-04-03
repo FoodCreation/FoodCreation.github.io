@@ -14,7 +14,7 @@ export interface IconProps  {
 export default function Header({ title, imageUrl, altText }: HeaderProps & IconProps) {
     return (
         <div className="navbar shadow bg-red-600 top-0 z-30 sticky">
-            <img src={imageUrl} alt={altText} className="w-16 pl-4"></img>
+            <img src={imageUrl} alt={altText} className="w-16 avatar rounded-full"></img>
             <HeaderText title={title}></HeaderText>
             <HeaderNavbar></HeaderNavbar>
         </div>
