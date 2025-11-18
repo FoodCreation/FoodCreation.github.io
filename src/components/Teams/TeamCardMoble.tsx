@@ -6,11 +6,11 @@ type TeamTextProps = {
     imageUrl: string
 }
 
-export default function TeamCardDesktop({ title, bodytext, imageUrl }: TeamTextProps) {
+export default function TeamCardMobile({ title, bodytext, imageUrl }: TeamTextProps) {
     return (
-        <div className="teamcards w-1/3">
-            {/* ここからデスクトップ向け表示 */}
-            < div className="card shadow-xl image-full mx-auto" >
+        <div className="teamcards">
+            {/* ここからモバイル向け表示 */}
+            < div className="lg:hidden card shadow-xl image-full mx-5 my-[10px]" >
                 <figure><img src={imageUrl} /></figure>
                 <div className="card-body">
                     <h1 className="text-4xl text-center font-bold text-slate-100">{title}</h1>
