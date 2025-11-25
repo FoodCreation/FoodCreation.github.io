@@ -8,11 +8,11 @@ type TeamTextProps = {
     linkUrl: string;
 };
 
-export default function TeamCardDesktop({ title, bodytext, imageUrl, linkUrl }: TeamTextProps) {
+export default function TeamCardMobile({ title, bodytext, imageUrl, linkUrl }: TeamTextProps) {
     return (
-        <div className="teamcards w-1/3">
+        <div className="teamcards">
             <Link href={linkUrl}>
-                <div className="card shadow-xl image-full mx-auto hover:opacity-90 transition cursor-pointer">
+                <div className="lg:hidden card shadow-xl image-full mx-5 my-[10px] hover:opacity-90 transition cursor-pointer">
                     <figure><img src={imageUrl} alt={title} /></figure>
                     <div className="card-body">
                         <h1 className="text-4xl text-center font-bold text-slate-100">{title}</h1>

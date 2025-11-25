@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function TeamsLabel(){
-    return(
+export default function TeamsLabel() {
+    return (
         <div>
             {/*デスクトップ画面用*/}
             <div className="hidden lg:block lg:ml-9 lg:mb-6">
@@ -12,5 +12,5 @@ export default function TeamsLabel(){
                 <p className="flex justify-center text-4xl font-bold">班紹介</p>
             </div>
         </div>
-    )
+    );
 }
