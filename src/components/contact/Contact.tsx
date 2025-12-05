@@ -13,11 +13,11 @@ export default function Contact() {
                 <ContactText title="連絡先" bodyText={`mail: プロジェクトリーダー  流\nc1304709@st.kanazawa-it.ac.jp`}></ContactText>
                 <div className="flex items-center mx-4 flex-col">
                     <span className="text-sm mb-1">フード</span>
-                    <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/8ban_foodc/?igshid=YmMyMTA2M2Y%3D" />
+                    <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/8ban_foodc" />
                 </div>
                 <div className="flex items-center mx-4 flex-col">
                     <span className="text-sm mb-1">はちぽ</span>
-                    <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/hachipo_official?igsh=N3ByNTZ4cnVxenJy&utm_source=qr" />
+                    <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/hachipo_official" />
                 </div>
                 <div className="flex items-center mx-4 flex-col">
                     <span className="text-sm mb-1">フードX</span>
@@ -25,7 +25,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center mx-4 flex-col">
                     <span className="text-sm mb-1">はちぽX</span>
-                    <ContactIcon imageUrl="/img/desktop/xIcon.png" altText="xの画像" iconLink="https://x.com/hachipoofficial?s=11&t=gwJQ1U-2vMbeugYuVmZ3bg" />
+                    <ContactIcon imageUrl="/img/desktop/xIcon.png" altText="xの画像" iconLink="https://x.com/hachipoofficial" />
                 </div>
             </div>
             {/*モバイル画面用*/}
@@ -35,11 +35,11 @@ export default function Contact() {
                 <div className="flex justify-center space-x-4">
                     <div className="flex items-center flex-col">
                         <span className="text-sm mb-1">フード</span>
-                        <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/8ban_foodc/?igshid=YmMyMTA2M2Y%3D" />
+                        <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/8ban_foodc" />
                     </div>
                     <div className="flex items-center flex-col">
                         <span className="text-sm mb-1">はちぽ</span>
-                        <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/hachipo_official?igsh=N3ByNTZ4cnVxenJy&utm_source=qr" />
+                        <ContactIcon imageUrl="/img/desktop/instagramIcon.png" altText="instagramの画像" iconLink="https://www.instagram.com/hachipo_official" />
                     </div>
                     <div className="flex items-center flex-col">
                         <span className="text-sm mb-1">フードX</span>
@@ -47,7 +47,7 @@ export default function Contact() {
                     </div>
                     <div className="flex items-center flex-col">
                         <span className="text-sm mb-1">はちぽX</span>
-                        <ContactIcon imageUrl="/img/desktop/xIcon.png" altText="xの画像" iconLink="https://x.com/hachipoofficial?s=11&t=gwJQ1U-2vMbeugYuVmZ3bg" />
+                        <ContactIcon imageUrl="/img/desktop/xIcon.png" altText="xの画像" iconLink="https://x.com/hachipoofficial" />
                     </div>
                 </div>
             </div>
