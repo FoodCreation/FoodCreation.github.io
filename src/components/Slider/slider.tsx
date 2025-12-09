@@ -20,10 +20,10 @@ export default function Slider() {
                 loop={true}
                 autoplay={{ delay: 4000 }}
             >
-                <SwiperSlide><img src="/img/desktop/01_IMG_9011.JPG" /></SwiperSlide>
-                <SwiperSlide><img src="/img/desktop/02_hachipo.png" /></SwiperSlide>
-                <SwiperSlide><img src="/img/desktop/03_RPT1838.jpg" /></SwiperSlide>
-                <SwiperSlide><img src="/img/desktop/04_IMG_5802.JPG" /></SwiperSlide>
+                <SwiperSlide><img src="/img/desktop/01_IMG_9011.webp" /></SwiperSlide>
+                <SwiperSlide><img src="/img/desktop/02_hachipo3.webp" /></SwiperSlide>
+                <SwiperSlide><img src="/img/desktop/03_RPT1838.webp" /></SwiperSlide>
+                <SwiperSlide><img src="/img/desktop/04_IMG_5802.webp" /></SwiperSlide>
             </Swiper>
             {/* ここまで */}
 
@@ -37,10 +37,10 @@ export default function Slider() {
                 loop={true}
                 autoplay={{ delay: 4000 }}
             >
-                <SwiperSlide><img src="/img/mobile/01_IMG_9011.JPG" /></SwiperSlide>
-                <SwiperSlide><img src="/img/mobile/02_hachipo.png" /></SwiperSlide>
-                <SwiperSlide><img src="/img/mobile/03_RPT1838.jpg" /></SwiperSlide>
-                <SwiperSlide><img src="/img/mobile/04_IMG_5802.JPG" /></SwiperSlide>
+                <SwiperSlide><img src="/img/mobile/01_IMG_9011.webp" /></SwiperSlide>
+                <SwiperSlide><img src="/img/mobile/02_hachipo3.webp" /></SwiperSlide>
+                <SwiperSlide><img src="/img/mobile/03_RPT1838.webp" /></SwiperSlide>
+                <SwiperSlide><img src="/img/mobile/04_IMG_5802.webp" /></SwiperSlide>
             </Swiper>
             {/* ここまで */}
 
