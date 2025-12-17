@@ -107,19 +107,6 @@ export default function TeamPageLayout({ data }: TeamPageLayoutProps) {
                         </div>
                     </div>
 
-                    {/* おすすめセクション */}
-                    <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-                        <h2 className="text-3xl font-bold mb-6 text-slate-900">{data.recommendSection.title}</h2>
-                        <ul className="space-y-3 text-lg text-slate-700">
-                            {data.recommendSection.items.map((item, index) => (
-                                <li key={index} className="flex items-start">
-                                    <span className="text-orange-500 mr-3 text-2xl">✓</span>
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
                     {/* 追加セクション（任意） */}
                     {data.additionalSections && data.additionalSections.map((section, index) => (
                         <div key={index} className="bg-white rounded-lg shadow-lg p-8 mb-8">
@@ -144,6 +131,19 @@ export default function TeamPageLayout({ data }: TeamPageLayoutProps) {
                             )}
                         </div>
                     ))}
+
+                    {/* おすすめセクション */}
+                    <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+                        <h2 className="text-3xl font-bold mb-6 text-slate-900">{data.recommendSection.title}</h2>
+                        <ul className="space-y-3 text-lg text-slate-700">
+                            {data.recommendSection.items.map((item, index) => (
+                                <li key={index} className="flex items-start">
+                                    <span className="text-orange-500 mr-3 text-2xl">✓</span>
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
 
                     {/* CTAボタン */}
                     <div className="text-center">

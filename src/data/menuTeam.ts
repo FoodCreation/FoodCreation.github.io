@@ -34,7 +34,7 @@ export const menuTeamData = {
     additionalSections: [
         {
             title: "活動の軌跡",
-            content: "試食会で旨激らーめんを学長に試食していただきました！",
+            content: "試食会の様子。金沢工業大学の学長にも「濃厚旨激らーめん」を試食していただきました！",
             images: [
             {src:"/img/desktop/IMG_4344.jpg", alt:"活動実績の画像1"},
             {src:"/img/desktop/IMG_4326.JPG", alt:"活動実績の画像2"},
