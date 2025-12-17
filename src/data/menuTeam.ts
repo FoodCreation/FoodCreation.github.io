@@ -8,15 +8,15 @@ export const menuTeamData = {
     // メイン画像（複数対応）
     mainImages: [
         {
-            src: "/img/desktop/MenuTeam.png",
+            src: "/img/desktop/IMG_1051.jpg",
             alt: "メニュー班の活動写真1"
         },
         {
-            src: "/img/desktop/NIJV9793.jpg",
+            src: "/img/desktop/DSC_6799.jpg",
             alt: "メニュー班の活動写真2"
         },
         {
-            src: "/img/desktop/MenuTeam.png",
+            src: "/img/desktop/20251001_182149955.jpg",
             alt: "メニュー班の活動写真3"
         },
     ],
@@ -30,7 +30,20 @@ export const menuTeamData = {
         ]
     },
     
-    // おすすめポイント
+    // 追加セクション（自由に追加・削除可能）
+    additionalSections: [
+        {
+            title: "活動の軌跡",
+            content: "試食会で旨激らーめんを学長に試食していただきました！",
+            images: [
+            {src:"/img/desktop/IMG_4344.jpg", alt:"活動実績の画像1"},
+            {src:"/img/desktop/IMG_4326.JPG", alt:"活動実績の画像2"},
+            {src:"/img/desktop/IMG_4336.JPG", alt:"活動実績の画像3"}
+        ]
+        }
+    ],
+
+     // おすすめポイント
     recommendSection: {
         title: "こんな方におすすめ",
         items: [
@@ -41,15 +54,6 @@ export const menuTeamData = {
             "新しいことにチャレンジしたい方"
         ]
     },
-    
-    // 追加セクション（自由に追加・削除可能）
-    additionalSections: [
-        {
-            title: "活動実績",
-            content: "ここに活動実績の内容を記載できます。",
-            images: [{src:"/img/desktop/MenuTeam.png", alt:"活動実績の画像"}]
-        }
-    ],
     
     // CTAボタン
     ctaButton: {
