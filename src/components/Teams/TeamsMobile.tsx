@@ -6,7 +6,7 @@ export default function TeamsMobile() {
         <div className="lg:hidden">
             <TeamCardMobile
                 title="メニュー班"
-                imageUrl="img/desktop/MenuTeam.png"
+                imageUrl="img/desktop/05_20251001_175306029.webp"
                 bodytext="新メニューの開発やマーケティング、SNSで活動の配信を行っています。食べることが好きな方、データの分析をしてみたい方、マーケティングに興味がある方など大歓迎です！"
                 linkUrl="/teams/menu"
             />
