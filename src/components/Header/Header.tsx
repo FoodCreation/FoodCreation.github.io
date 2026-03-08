@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import HeaderText from "./HeaderText";
 import HeaderNavbar from "./HeaderNavbar";
 
@@ -14,7 +15,9 @@ export interface IconProps  {
 export default function Header({ title, imageUrl, altText }: HeaderProps & IconProps) {
     return (
         <div className="navbar shadow bg-red-600 top-0 z-30 sticky">
-            <img src={imageUrl} alt={altText} className="w-16 avatar rounded-full"></img>
+            <div className="w-16 h-16 relative rounded-full overflow-hidden flex-shrink-0">
+                <Image src={`/${imageUrl}`} alt={altText} fill className="object-cover" sizes="64px" priority />
+            </div>
             <HeaderText title={title}></HeaderText>
             <HeaderNavbar></HeaderNavbar>
         </div>
