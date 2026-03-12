@@ -3,17 +3,21 @@ export const webTeamData = {
     title: "Web班",
     subtitle: "Webサイトの制作・運用やデザイン、情報発信を担当しています。",
     headerImage: "/img/desktop/WebTeam.png",
-    headerColor: "#38bdf8", // 水色
+    headerColor: "#fbbf24", // 水色
 
     // メイン画像（複数対応）
     mainImages: [
         {
-            src: "/img/desktop/web_main1.jpg",
+            src: "/img/desktop/IMG5816.jpg",
             alt: "Web班の活動写真1"
         },
         {
-            src: "/img/desktop/web_main2.jpg",
+            src: "/img/desktop/02_hachipo3.webp",
             alt: "Web班の活動写真2"
+        },
+        {
+            src: "/img/desktop/WebTeam.png",
+            alt: "Web班の活動写真3"
         }
     ],
 
@@ -26,17 +30,7 @@ export const webTeamData = {
         ]
     },
 
-    // 追加セクション（自由に追加・削除可能）
-    additionalSections: [
-        {
-            title: "活動の軌跡",
-            content: "Web班の制作現場やイベント参加の様子などを紹介します。",
-            images: [
-                {src: "/img/desktop/web_achieve1.jpg", alt: "活動実績の画像1"},
-                {src: "/img/desktop/web_achieve2.jpg", alt: "活動実績の画像2"}
-            ]
-        }
-    ],
+    // 追加セクションなし
 
     // おすすめポイント
     recommendSection: {
