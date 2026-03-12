@@ -1,16 +1,12 @@
-import WebHeader from "@/components/TeamsWeb/WebHeader";
-import WebSlider from "@/components/TeamsWeb/WebSlider";
-import WebFooter from "@/components/TeamsWeb/WebFooter";
+import React from "react";
+import TeamPageLayout from "@/components/Teams/TeamPageLayout";
+import { webTeamData } from "@/data/webTeam";
 
-export default function Page() {
-  return (
-    <>
-      <WebHeader title="フードクリエイション" />
-      <main className="max-w-5xl mx-auto p-4">
-        <WebSlider />
-        {/* 他のコンテンツ */}
-      </main>
-      <WebFooter />
-    </>
-  );
+export const metadata = {
+    title: `${webTeamData.title} | 金沢工業大学 フードクリエイションプロジェクト`,
+    description: webTeamData.subtitle,
+};
+
+export default function WebTeamPage() {
+    return <TeamPageLayout data={webTeamData} />;
 }

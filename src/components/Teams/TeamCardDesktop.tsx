@@ -17,8 +17,8 @@ export default function TeamCardDesktop({ title, bodytext, imageUrl, linkUrl }: 
                     <h1 className="text-4xl text-center font-bold text-slate-100">{title}</h1>
                     <p className="justify-center items-center flex text-slate-100">{bodytext}</p>
                     <div className="absolute bottom-6 right-6">
-                        <Link href={linkUrl} legacyBehavior>
-                            <a className="text-base text-yellow-400 hover:underline cursor-pointer">詳細はこちら</a>
+                        <Link href={linkUrl} className="text-base text-yellow-400 hover:underline cursor-pointer">
+                            詳細はこちら
                         </Link>
                     </div>
                 </div>
