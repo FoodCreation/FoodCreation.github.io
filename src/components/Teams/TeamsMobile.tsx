@@ -13,7 +13,7 @@ export default function TeamsMobile() {
             <TeamCardMobile
                 title="Web班"
                 imageUrl="img/desktop/WebTeam.png"
-                bodytext="Web班では８番らーめん工大前店で使えるハチバン初のポイントサイトを開発してます。本気でWebアプリ開発がしたい方、「Web」×「食」によって新たな価値提供を考えたい方、大募集中です！！！"
+                bodytext="Web班では８番らーめん金沢工大前店で使えるハチバン初のポイントサイトを開発してます。本気でWebアプリ開発がしたい方、「Web」×「食」によって新たな価値提供を考えたい方、大募集中です！！！"
                 linkUrl="/teams/web"
             />
             <TeamCardMobile

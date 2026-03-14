@@ -8,15 +8,15 @@ export const menuTeamData = {
     // メイン画像（複数対応）
     mainImages: [
         {
-            src: "/img/desktop/IMG_1051.jpg",
+            src: "/img/desktop/IMG_1051.JPG",
             alt: "メニュー班の活動写真1"
         },
         {
-            src: "/img/desktop/DSC_6799.jpg",
+            src: "/img/desktop/DSC_6799.JPG",
             alt: "メニュー班の活動写真2"
         },
         {
-            src: "/img/desktop/20251001_182149955.jpg",
+            src: "/img/desktop/20251001_182149955.JPG",
             alt: "メニュー班の活動写真3"
         },
     ],
@@ -34,9 +34,9 @@ export const menuTeamData = {
     additionalSections: [
         {
             title: "活動の軌跡",
-            content: "試食会の様子。金沢工業大学の学長にも「濃厚旨激らーめん」を試食していただきました！",
+            content: "試食会の様子。金沢工業大学の学長にも「濃厚旨撃らーめん」を試食していただきました！",
             images: [
-            {src:"/img/desktop/IMG_4344.jpg", alt:"活動実績の画像1"},
+            {src:"/img/desktop/IMG_4344.JPG", alt:"活動実績の画像1"},
             {src:"/img/desktop/IMG_4326.JPG", alt:"活動実績の画像2"},
             {src:"/img/desktop/IMG_4336.JPG", alt:"活動実績の画像3"}
         ]
