@@ -31,7 +31,7 @@ export default function TimeLine() {
                         <div className="absolute w-4 h-4 bg-orange-500 rounded-full mt-1.5 -start-3 border border-white"></div>
                         <li className="mb-10 ms-4">
                             <time className="mb-1 text-sm font-normal leading-none text-gray-400">2025.10</time>
-                            <h3 className="text-lg font-semibold text-gray-900">濃厚旨激らーめん発売</h3>
+                            <h3 className="text-lg font-semibold text-gray-900">濃厚旨撃らーめん発売</h3>
                         </li>
                         
                         
@@ -80,7 +80,7 @@ export default function TimeLine() {
                                 <div className="timeline-middle">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 text-orange-600"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
                                 </div>
-                                <div className="timeline-end timeline-box mt-3 font-semibold bg-white border-white">濃厚旨激らーめん発売</div>
+                                <div className="timeline-end timeline-box mt-3 font-semibold bg-white border-white">濃厚旨撃らーめん発売</div>
                             </li>
                         </ul>
                     </div>
