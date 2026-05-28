@@ -9,7 +9,7 @@ export default function Contact() {
             <ContactLabel />
             {/*デスクトップ画面用*/}
             <div className="hidden lg:flex lg:justify-center lg:items-center lg:whitespace-pre-wrap">
-                <ContactText title="活動日時・場所" bodyText={`・毎週火曜日5限\n・パフォーミングスタジオ(23号館1階)`}></ContactText>
+                <ContactText title="活動日時・場所" bodyText={`・毎週火曜日5限\n・パフォーミングスタジオ(23号館1階)\n・チャレンジラボ`}></ContactText>
                 <ContactText title="連絡先" bodyText={`mail: プロジェクトリーダー  萩原\nc1430750@st.kanazawa-it.ac.jp`}></ContactText>
                 <div className="flex items-center mx-4 flex-col">
                     <span className="text-sm mb-1">フード</span>
